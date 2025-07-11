@@ -3,6 +3,15 @@
     padding:0px;
     
 }
+/* google font */
+.custom_font{
+    
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* banner style */
 .banner{
     
@@ -47,7 +56,7 @@
 }
 /* main section */
 body{
-    background-color: rgba(240, 255, 255, 0.537);
+    background-color: rgba(240, 255, 255, 0.664);
 }
 main{
     max-width: 1140px;
@@ -94,6 +103,7 @@ main{
     border-radius: 24px;
     text-align: center;
     padding: 50px 142px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .user_main{
     display: flex;
@@ -136,6 +146,7 @@ main{
     border-radius: 14px;
     box-shadow: 1px 1px 20px #F2EDED;
     margin-bottom: 115px;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 .profile_section{
@@ -220,6 +231,7 @@ input{
     border: none;
     border-radius: 10px;
     box-shadow:1px 1px 20px #F2EDED;
+    padding-left: 30px;
 
 }
 .input_text{
@@ -238,9 +250,13 @@ input{
     
     
 }
+textarea{
+    padding: 20px;
+}
 label{
     font-size: 18px;
     margin:20px 0px;
+    font-weight:bold;
 }
 ::placeholder{
     padding:20px 0px 20px 32px;
@@ -253,4 +269,51 @@ label{
      background-color: #4E47FF;
      border: none;
      border-radius:10px ;
+}
+
+/* footer section */
+.footer_main{
+   
+    text-align: center;
+    background-color:#ffffff ;
+     padding:104px 450px;
+    
+}
+ul li{
+    list-style: none;
+}
+.footer_nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 10px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap:45px ;
+   
+}
+.footer_logo{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding-bottom: 8px;
+    
+}
+.footer_description{
+    font-style: normal;
+    font-size: 11px;
+    padding-bottom: 20px;
+    color: #8987A1;
+}
+.btn_style:hover{
+    background-color: rgba(205, 96, 233, 0.573);
+    box-shadow:5px 5px 30px  rgba(206, 96, 233, 0.719);
+    font-size: 15px;
+}
+.from_btn:hover{
+     background-color: rgba(205, 96, 233, 0.573);
+    box-shadow:5px 5px 30px  rgba(206, 96, 233, 0.719);
+    font-size: 15px;
 }
