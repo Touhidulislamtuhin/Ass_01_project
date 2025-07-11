@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    
 }
 /* banner style */
 .banner{
@@ -48,6 +49,7 @@
 main{
     max-width: 1140px;
     margin: 0px auto;
+    
 }
 /* action  */
 .main_div{
@@ -172,4 +174,27 @@ main{
 .date{
     font-size: 10px;
     color: #717070de;
+}
+/*Web Flox Section(optional part */
+.webflox_section{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    box-shadow:2px 2px 25px #F2EDED;
+    padding:71px 150px}
+.web_flox_main{
+   margin-bottom: 20px;
+}
+.webflox_head{
+    font-size:50px;
+    font-weight: bold;
+    
+}
+.web_flox_main p{
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.webflox_section img{
+    border-radius: 48px;
 }
